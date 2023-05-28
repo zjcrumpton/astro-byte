@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FC } from "react";
 import { IconType } from "react-icons";
-import { FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
 
 interface ContactItemProps {
   Icon: IconType;
@@ -31,6 +31,7 @@ export default function Contact() {
             <h1>Social Media:</h1>
 
             <div className="flex justify-center items-center gap-10">
+              <ContactItem to="https://github.com/zjcrumpton" Icon={FaGithub} />
               <ContactItem
                 to="https://www.tiktok.com/@astrobytedev"
                 Icon={FaTiktok}
