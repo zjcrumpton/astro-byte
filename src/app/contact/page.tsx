@@ -19,7 +19,7 @@ const ContactItem: FC<ContactItemProps> = ({ Icon, to }) => {
 export default function Contact() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex flex-col items-center justify-between p-24">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col justify-center items-center">
             <h1>For business inquiries:</h1>
