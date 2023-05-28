@@ -20,6 +20,7 @@ export default function Contact() {
   return (
     <>
       <main className="flex flex-col items-center justify-between p-24">
+        <h1 className="text-6xl mb-10">Contact</h1>
         <div className="flex flex-col gap-10">
           <div className="flex flex-col justify-center items-center">
             <h1>For business inquiries:</h1>
