@@ -101,7 +101,7 @@ export default async function Blog() {
 
         <div className="flex flex-wrap gap-10 justify-center items-center">
           {posts.map((post: any) => (
-            <PostItem {...post.node} />
+            <PostItem key={post.node.slug} {...post.node} />
           ))}
         </div>
       </main>

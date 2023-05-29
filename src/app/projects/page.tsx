@@ -46,7 +46,7 @@ export default function Projects() {
         <h1 className="text-6xl mb-10">Projects</h1>
         <div className="flex flex-wrap gap-10 justify-center items-center">
           {projects.map((project) => (
-            <Project {...project} />
+            <Project key={project.name} {...project} />
           ))}
         </div>
       </main>
